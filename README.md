@@ -1,10 +1,11 @@
 # Sequence-to-Sequence-Learning-with-Neural-Networks
 
 # Overview
-Five-minute overview providing context, stating the problem the paper is addressing, charactering the approach, and giving a brief account of how the problem was addressed.
+- DNNs cannot be used to map sequences to sequences. This paper addresses this issue and presents a general end-to-end approach to sequence learning using Long Short-Term Memory (LSTM).
+- The main result from conducting experiements from the paper is that on an English to French translation task from the WMT'14 dataset.
 
 # Bullet points
-Slides/notebook sections using bullet points and graphics
+- This dataset has about 700 million words. The model has 60000 input words and 80000 output words
 
 # Discussion Topic 1
 Cover first chosen topic, ask a question for the class to discuss
