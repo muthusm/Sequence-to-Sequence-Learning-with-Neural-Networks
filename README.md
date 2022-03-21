@@ -4,8 +4,11 @@
 - DNNs cannot be used to map sequences to sequences. This paper addresses this issue and presents a general end-to-end approach to sequence learning using Long Short-Term Memory (LSTM).
 - The main result from conducting experiements from the paper is that on an English to French translation task from the WMT'14 dataset.
 
-# Bullet points
-- This dataset has about 700 million words. The model has 60000 input words and 80000 output words
+### About the data
+- This dataset has about 700 million words.
+- The model has 60000 input words and 80000 output words.
+- 4 layers of 1000D cells LSTM, 8000 dimensional state.
+- Trains only on 30% of the training data
 
 # Discussion Topic 1
 Cover first chosen topic, ask a question for the class to discuss
