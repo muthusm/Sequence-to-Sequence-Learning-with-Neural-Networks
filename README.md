@@ -10,11 +10,19 @@
 - 4 layers of 1000D cells LSTM, 8000 dimensional state.
 - Trains only on 30% of the training data
 
-### Existing problem 
+# Existing problem 
+Though very powerful, DNNs cannot map sequences to sequences. It can only map vectors to vectors. Meanwhile, RNNs can work with sequences but have trouble learning the long dependencies. 
+
+### Solution
+LSTM architecture is the soultion to learn long term dependecies. RNNs overwrite the hidden state but LSTMs add to the hidden state.A multilayered Long Short-Term Memory (LSTM) is used to map the input sequence to a vector of a fixed dimensionality, and then another deep LSTM to decode the target sequence from the vector. This general end-to-end approach to sequence learning, improves the statistical machine translation (SMT) e.g.: English to French translation task.
+
 
 
 ### Approach 
 There have been a number of related attempts to address the general sequence to sequence learning problem with neural networks.
+
+
+### Framework : Sequence to Sequence (Seq2Seq) Model
 
 ![alt text](https://github.com/muthusm/Sequence-to-Sequence-Learning-with-Neural-Networks/blob/main/Presentation/image1.png)
 
