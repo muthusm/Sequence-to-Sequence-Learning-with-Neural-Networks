@@ -26,6 +26,24 @@ There have been a number of related attempts to address the general sequence to 
 
 ![alt text](https://github.com/muthusm/Sequence-to-Sequence-Learning-with-Neural-Networks/blob/main/Presentation/image1.png)
 
+#### Function
+
+Estimate the conditional probability p where x is an input sequence and y is its corresponding output sequence whose length T′ may differ from T.
+ Here : p(y1,…,y′T|x1,…,xT), x(x1,…,xT) and y(y1,…,y′T)
+ 
+![alt text](https://github.com/muthusm/Sequence-to-Sequence-Learning-with-Neural-Networks/blob/main/Presentation/image4.png)
+
+
+#### Training
+
+Maximize the log probability of a correct translation T given the source sentence S.
+![alt text](https://github.com/muthusm/Sequence-to-Sequence-Learning-with-Neural-Networks/blob/main/Presentation/image5.png)
+
+
+#### Decoding
+
+Produce translations by finding the most likely translation according to the LSTM.
+![alt text](https://github.com/muthusm/Sequence-to-Sequence-Learning-with-Neural-Networks/blob/main/Presentation/image6.png)
 
 ### Results
 
