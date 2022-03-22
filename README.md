@@ -29,6 +29,9 @@ There have been a number of related attempts to address the general sequence to 
 
 ### Results
 
+![alt text](https://github.com/muthusm/Sequence-to-Sequence-Learning-with-Neural-Networks/blob/main/Presentation/image2.png)
+
+
 
 # Discussion Topic 1
 Cover first chosen topic, ask a question for the class to discuss
