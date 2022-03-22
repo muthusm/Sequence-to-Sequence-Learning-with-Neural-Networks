@@ -29,7 +29,13 @@ There have been a number of related attempts to address the general sequence to 
 
 ### Results
 
+#### 2D PCA Projection
+
 ![alt text](https://github.com/muthusm/Sequence-to-Sequence-Learning-with-Neural-Networks/blob/main/Presentation/image2.png)
+
+
+#### Long sentences
+![alt text](https://github.com/muthusm/Sequence-to-Sequence-Learning-with-Neural-Networks/blob/main/Presentation/image3.png)
 
 
 
