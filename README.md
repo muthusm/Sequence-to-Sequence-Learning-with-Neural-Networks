@@ -12,7 +12,10 @@
 
 ### Existing problem 
 
+
 ### Approach 
+There have been a number of related attempts to address the general sequence to sequence learning problem with neural networks.
+
 
 ### Results
 
