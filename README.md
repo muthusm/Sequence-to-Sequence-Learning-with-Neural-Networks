@@ -16,6 +16,8 @@
 ### Approach 
 There have been a number of related attempts to address the general sequence to sequence learning problem with neural networks.
 
+![alt text](https://github.com/muthusm/Sequence-to-Sequence-Learning-with-Neural-Networks/blob/main/Presentation/image1.png)
+
 
 ### Results
 
