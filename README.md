@@ -78,6 +78,7 @@ The output sequence relies heavily on the context defined by the hidden state in
 - https://adacheng.github.io/paper_note/2019/06/11/Sequence-to-Sequence-Learning-with-Neural-Networks/
 - https://nlp.stanford.edu/projects/nmt/
 - https://karpathy.github.io/2015/05/21/rnn-effectiveness/
+ https://arxiv.org/pdf/1410.8206.pdf
 - https://medium.com/nlp-chatbot-survey/paper-review-4-sequence-to-sequence-learning-with-neural-networks-40ce8f66b1e2
 - https://medium.com/analytics-vidhya/how-seq2seq-sequence-to-sequence-models-improved-into-transformers-using-attention-mechanism-9905fb88d5ef
 
