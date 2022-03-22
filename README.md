@@ -61,10 +61,10 @@ Produce translations by finding the most likely translation according to the LST
 
 
 # Discussion Topic 1
-Why DNNs and basic RNNs cannot be used for sequence to sequence learning?(Hint: LSTM is a special type of RNN)
+Why DNNs and basic RNNs cannot be used for sequence to sequence learning?
 
 # Discussion Topic 2
-Why does LSTM reverse the order of the words of the input sentence.General thoughts on reversing input sentences? Any similar models?
+Why does the authors reversed the order of the words of the input sentence and then feeded to the LSTM.General thoughts on reversing input sentences? Any similar models?
 
 # Discussion Topic 3
 Why do we require that each sentence in LSTM ends with a special end-of-sentence symbol "<EOS>"?
