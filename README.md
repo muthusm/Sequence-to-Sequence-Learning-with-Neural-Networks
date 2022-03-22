@@ -67,7 +67,7 @@ Why does LSTM reverse the order of the words of the input sentence.General thoug
 Why do we require that each sentence in LSTM ends with a special end-of-sentence symbol "<EOS>"?
 
 # Critical Analysis
-The output sequence relies heavily on the context defined by the hidden state in the final output of the encoder, making it challenging for the model to deal with long sentences. In the case of long sequences, there is a high probability that the initial context has been lost by the end of the sequence. The hidden state vector is a fixed-size length and thus it is hard for the encoder to encapsulate/compress all the information from the sentence. If the input is long, it can suffer from what is called the information bottleneck.
+The output sequence relies heavily on the context defined by the hidden state in the final output of the encoder, making it challenging for the model to deal with long sentences. In the case of long sequences, there is a high probability that the initial context has been lost by the end of the sequence. The hidden state vector is a fixed-size length and thus it is hard for the encoder to encapsulate/compress all the information from the sentence. If the input is long, it can suffer from what is called the information bottleneck. Inability to correctly translate very rare words: end-to-end NMTs tend to have relatively small vocabularies with a single unk symbol that represents every possible out-of-vocabulary (OOV) word
 
 # Resource Links
 
