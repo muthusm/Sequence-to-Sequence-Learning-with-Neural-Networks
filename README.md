@@ -58,19 +58,27 @@ Produce translations by finding the most likely translation according to the LST
 
 
 # Discussion Topic 1
-Cover first chosen topic, ask a question for the class to discuss
+Why DNNs and basic RNNs cannot be used for sequence to sequence learning?(Hint: LSTM is a special type of RNN)
 
 # Discussion Topic 2
-Cover second chosen topic, ask a question for the class to discuss
+Why does LSTM reverse the order of the words of the input sentence.General thoughts on reversing input sentences? Any similar models?
 
 # Discussion Topic 3
-Cover third chosen topic, ask a question for the class to discuss
+Why do we require that each sentence in LSTM ends with a special end-of-sentence symbol "<EOS>"?
 
 # Critical Analysis
-Answer one or more of the following questions: What was overlooked by the authors? What could have been developed further? Were there any errors? Have others disputed the findings?
+The output sequence relies heavily on the context defined by the hidden state in the final output of the encoder, making it challenging for the model to deal with long sentences. In the case of long sequences, there is a high probability that the initial context has been lost by the end of the sequence. The hidden state vector is a fixed-size length and thus it is hard for the encoder to encapsulate/compress all the information from the sentence. If the input is long, it can suffer from what is called the information bottleneck.
 
 # Resource Links
-Prepare links of where to go to get more information (other papers, models, blog posts (e.g. papers with code))
+
+- https://www.analyticsvidhya.com/blog/2020/08/a-simple-introduction-to-sequence-to-sequence-models/
+- https://github.com/tensorflow/nmt
+- https://www-nlp.stanford.edu/pubs/luong2016iclr_multi.pdf
+- https://staff.fnwi.uva.nl/m.derijke/wp-content/papercite-data/pdf/jiang-why-2018.pdf
+- https://adacheng.github.io/paper_note/2019/06/11/Sequence-to-Sequence-Learning-with-Neural-Networks/
+- https://nlp.stanford.edu/projects/nmt/
+- https://karpathy.github.io/2015/05/21/rnn-effectiveness/
+- https://medium.com/nlp-chatbot-survey/paper-review-4-sequence-to-sequence-learning-with-neural-networks-40ce8f66b1e2
 
 # Code Demonstration
 Make a Jupyter notebook demonstrating using the model
