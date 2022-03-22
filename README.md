@@ -10,6 +10,13 @@
 - 4 layers of 1000D cells LSTM, 8000 dimensional state.
 - Trains only on 30% of the training data
 
+### Existing problem 
+
+### Approach 
+
+### Results
+
+
 # Discussion Topic 1
 Cover first chosen topic, ask a question for the class to discuss
 
