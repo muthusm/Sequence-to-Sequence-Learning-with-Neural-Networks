@@ -19,7 +19,7 @@ LSTM architecture is the solution to learn long term dependecies. RNNs overwrite
 
 
 ### Approach 
-There have been a number of related attempts to address the general sequence to sequence learning problem with neural networks.
+There have been a number of related attempts to address the general sequence to sequence learning problem with neural networks. Different LSTMs for input(encoder) and output(decoder) languagues
 
 
 ### Framework : Sequence to Sequence (Seq2Seq) Model
