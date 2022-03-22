@@ -5,14 +5,16 @@
 - Sequence Models are the machine learning models that input or output the sequence of data.We cannot use standard neural network., ie DNNs for this kind of data.
 - The main result from conducting experiements from the paper is that on an English to French translation task from the WMT'14 dataset.
 
+### Existing problem 
+Though very powerful, DNNs cannot map sequences to sequences. It can only map vectors to vectors. Meanwhile, RNNs can work with sequences but have trouble learning the long dependencies. 
+
 ### About the data
 - This dataset has about 700 million words.
 - The model has 60000 input words and 80000 output words.
 - 4 layers of 1000D cells LSTM, 8000 dimensional state.
 - Trains only on 30% of the training data
 
-# Existing problem 
-Though very powerful, DNNs cannot map sequences to sequences. It can only map vectors to vectors. Meanwhile, RNNs can work with sequences but have trouble learning the long dependencies. 
+
 
 ### Solution
 LSTM architecture is the solution to learn long term dependecies. RNNs overwrite the hidden state but LSTMs add to the hidden state.A multilayered Long Short-Term Memory (LSTM) is used to map the input sequence to a vector of a fixed dimensionality, and then another deep LSTM to decode the target sequence from the vector. This general end-to-end approach to sequence learning, improves the statistical machine translation (SMT) e.g.: English to French translation task.
