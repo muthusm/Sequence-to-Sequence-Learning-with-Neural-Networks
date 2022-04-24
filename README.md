@@ -89,4 +89,4 @@ The output sequence relies heavily on the context defined by the hidden state in
 ## [Code Demonstration](https://github.com/muthusm/Sequence-to-Swquence-Learninr-with-Neural-Networks/blob/main/cOde%20Demonstration/code_demonstration.ipynb)
 
 
-## Link to Video
+## [Link to Video](https://github.com/muthusm/Sequence-to-Sequence-Learning-with-Neural-Networks/blob/main/Video/Transformers_Paper_Review.mp4)
